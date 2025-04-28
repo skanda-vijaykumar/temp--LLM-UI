@@ -1,5 +1,7 @@
 ## Gradio PDF Question-Answering Chatbot
 
+This is my very first RAG system I built. Simple PDF parsers chunked and stored in vector database then queried to get relevant info and response systhesis. 
+
 **Key Functionality**  
 - Ingests all PDF files from a specified directory using LangChain’s `DirectoryLoader` and `PyPDFLoader`  
 - Splits each document into overlapping text chunks (`chunk_size=500`, `chunk_overlap=50`)  
